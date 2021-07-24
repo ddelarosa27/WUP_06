@@ -46,7 +46,7 @@ barchartGC(~race + cappun,data=GSS, type="percent")
 
 ```
 
-This graph shows that about 50% of white people oppose capital punishment and about 67% are in favor of it. About 43% of black people are in favor of capital punishment and 50% oppose. In the other category about 53% are in favor and 42% of them oppose capital punishment.The white has the largest gap compared to blac and other. Black is the closest in percentage foor those in favor and opposing capital punishment.
+This graph shows that about 50% of white people oppose capital punishment and about 67% are in favor of it. About 43% of black people are in favor of capital punishment and 50% oppose. In the other category about 53% are in favor and 42% of them oppose capital punishment.The white has the largest gap compared to blac and other. Black is the closest in percentage foor those in favor and opposing capital punishment.It seems as if the attitude towards capital punishment is about 50/50 in both black and other.
 
 ### Numerical Descriptive Results
 
@@ -57,6 +57,8 @@ table1 <- xtabs(~race + cappun, data=GSS)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+Based on these numerical results the group with the largest percentage is the white in favor of capital punishment at 67.98 and also has the lowest percentage in opposing capital punishment at 32.02. Black and other have smaller gaps in between their percentages. Other and black have a different of 10% or less.
 
 ## Inferential Results
 
@@ -141,3 +143,4 @@ fisherXY(GSS$cappun,GSS$race)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
