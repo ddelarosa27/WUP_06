@@ -13,7 +13,7 @@ require(knitr)
 ```
 ```{r}
 require(foreign)
-GSS <-read.dta(file="GSS2018.dta")
+GSS <- read.dta(file="GSS2018.dta")
 GSS<- droplevels(GSS)
 ```
 
