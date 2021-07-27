@@ -11,7 +11,7 @@ require(tigerstats)
 require(knitr)
 #GSS <-read.csv(file="GSScsv.csv",header=TRUE)
 ```
-```{r}
+```{r eval=FALSE}
 require(foreign)
 GSS <- read.dta(file="GSS2018.dta")
 GSS<- droplevels(GSS)
